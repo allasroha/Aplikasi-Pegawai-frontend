@@ -1,0 +1,12 @@
+# Frontend User (Karyawan) Tasks – Sprint 1
+
+**Goal:** Karyawan dapat login menggunakan kredensial yang dibuat admin, serta memiliki fondasi proyek yang disiapkan untuk Sprint 2 (pengisian profil dan sertifikat).
+
+## Daftar Tugas
+
+- [x] Inisialisasi proyek Vite + React + Tailwind + shadcn/ui.
+- [x] Persiapan *routing* dasar (React Router) dan *state management* sederhana untuk autentikasi.
+- [x] Halaman login karyawan (memanggil `POST /api/auth/login`).
+- [x] Halaman *welcome* atau profil (masih berupa *placeholder* kosong terproteksi). Karyawan diarahkan ke sini setelah login.
+- [x] Fungsi logout (memanggil `POST /api/auth/logout`) dan kembali ke halaman login.
+- [x] (Opsional) Penyesuaian layout *navbar*/*sidebar* dasar sebagai rangka awal aplikasi Karyawan.
